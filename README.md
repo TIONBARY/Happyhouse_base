@@ -1,8 +1,7 @@
 # member
 
 **pair9**
-# 김시언 
-# 허설
+### 김시언  허설
 
 ## Requirements
 
