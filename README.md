@@ -1,6 +1,6 @@
 # member
 
-pair0 김싸피 이싸피
+pair9 김시언 허설
 
 ## Requirements
 
