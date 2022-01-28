@@ -21,6 +21,15 @@ pair9 김시언 허설
 
 
 ## 결과화면
+- 초기화면 
+![초기화면](https://user-images.githubusercontent.com/26956570/151531855-879b5af8-bb95-489f-82ef-999c55ce5a4d.png)
+
+- 동으로 검색 시 
+![동으로검색](https://user-images.githubusercontent.com/26956570/151531920-f5322660-14f0-4c28-b93e-47be0a4a91eb.png)
+
+- 아파트 이름으로 검색 시 
+![아파트이름검색](https://user-images.githubusercontent.com/26956570/151531975-7f552388-b1bc-4196-829c-1bac32779e7c.png)
+
 
 
 
