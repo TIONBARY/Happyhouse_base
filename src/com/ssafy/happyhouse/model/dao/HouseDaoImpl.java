@@ -76,11 +76,16 @@ public class HouseDaoImpl implements HouseDao{
 	 * @return		아파트 식별 번호에 해당하는 아파트 거래 정보를 찾아서 리턴한다, 없으면 null이 리턴됨
 	 */
 	public HouseDeal search(int no) {
-		for(int i = 0; i<search.size(); i++) {
-			if(no == search.get(i).getNo()) {
-				return search.get(i);
+		String str;
+		for(HouseDeal deal : search) {
+			if(deal.getNo() == no) {
+				str = deal.getDong()+deal.getAptName();
+				if(houseInfo.get(str) != null) {
+					deal.setImg(houseInfo.get(str).getImg());
+				}
+				return deal;
 			}
-		}
+		}		
 		return null;
 	}
 
