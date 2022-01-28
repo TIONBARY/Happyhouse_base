@@ -31,22 +31,16 @@ pair9 김시언 허설
 | HouseServiceImpl 34      | @Override<br/>	public HouseDeal search(int no) {<br/>		<br/>		// complete code #03<br/>		// null 을 return 하면 안됩니다. Dao Layer 의 적절한 method를 호출하여 Business Logic 을 완성하세요.<br/>|
 | HouseDaoImpl  80         | 못함                                                         |
 | APTRentSAXHandler 28~    | else if(qName.equals("보증금액")) { <br/>// complete code #05 <br/> // 보증금액 항목을 처리하세요. <br/>
-```	
- house.setDealAmount(temp.trim());}
-```
-```	
-else if(qName.equals("건축년도")) { 
-```
- // complete code #06 <br/> // 건축년도 항목을 처리하세요.
-```	
-house.setBuildYear(Integer.parseInt(temp)); 
-}else if(qName.equals("일")) { 
-```
-// complete code #07; <br/> // 일 항목을 처리하세요.
-```
-house.setDealDay(Integer.parseInt(temp));
-}
-```
-|
+|                          | ```	
+|                          |  house.setDealAmount(temp.trim());}	
+|                          |  else if(qName.equals("건축년도")) { 
+|                          | // complete code #06 <br/> // 건축년도 항목을 처리하세요
+|                          | house.setBuildYear(Integer.parseInt(temp)); 
+|                          | }else if(qName.equals("일")) { 
+|                          | // complete code #07; <br/> // 일 항목을 처리하세요.
+|                          | house.setDealDay(Integer.parseInt(temp));
+|                          | }
+|                          | ```
+|                          |
 
 
