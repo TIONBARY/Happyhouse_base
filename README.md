@@ -23,7 +23,7 @@
 
 ## 결과화면
 - 초기화면 
-![초기화면](https://user-images.githubusercontent.com/26956570/151531855-879b5af8-bb95-489f-82ef-999c55ce5a4d.png)
+<img src="https://user-images.githubusercontent.com/26956570/151531855-879b5af8-bb95-489f-82ef-999c55ce5a4d.png"  width="500">
 
 - 동으로 검색 시 
 ![동으로검색](https://user-images.githubusercontent.com/26956570/151531920-f5322660-14f0-4c28-b93e-47be0a4a91eb.png)
