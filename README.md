@@ -21,7 +21,7 @@ pair9 김시언 허설
 
 
 ## 결과화면
-![image info](./img/00.PNG)
+![1](https://user-images.githubusercontent.com/26956570/151523317-cc18c091-4787-4fea-8a87-97e2a8591792.png)
 
 
 ## 제출 소스
