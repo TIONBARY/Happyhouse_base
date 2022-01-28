@@ -27,7 +27,7 @@ pair9 김시언 허설
 ## 제출 소스
 | ClassName  code line No. | code                                                         |
 | ------------------------ | :----------------------------------------------------------- |
-| HouseInfoView 246~247    | // complete code #01<br/>		// 아래의 코드를 참조하여 아래 라인을 uncomment 하고 searchBt.addActionList() 를 Lambda 표현식으로 바꾸세요.<br/>		// searchBt.addActionListener( /* 여기 */ );<br/>		<br/>		// 참조코드 시작 - 위 코드를 완성 후 삭제 또는 comment 처리하세요.<br/>		/*ActionListener buttonHandler = new ActionListener() {<br/>			@Override<br/>			public void actionPerformed(ActionEvent e) {<br/>				searchHouses();<br/>			}<br/>		};*/<br/>		<br/>		searchBt.addActionListener( (e)->searchHouses() );<br/>		// 참조코드 종료<br/> |
+| HouseInfoView 246~247    | ![1](https://user-images.githubusercontent.com/26956570/151523317-cc18c091-4787-4fea-8a87-97e2a8591792.png) |
 | HouseServiceImpl 34      | @Override<br/>	public HouseDeal search(int no) {<br/>		<br/>		// complete code #03<br/>		// null 을 return 하면 안됩니다. Dao Layer 의 적절한 method를 호출하여 Business Logic 을 완성하세요.<br/>		<br/>		return null;<br/>	} |
 | HouseDaoImpl  80         | 못함                                                         |
 | APTRentSAXHandler 28~    | 못함                                                         |
