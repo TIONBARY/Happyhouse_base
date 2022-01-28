@@ -30,5 +30,22 @@ pair9 김시언 허설
 | HouseInfoView 246~247    | // complete code #01<br/>		// 아래의 코드를 참조하여 아래 라인을 uncomment 하고 searchBt.addActionList() 를 Lambda 표현식으로 바꾸세요.<br/>	// 참조코드 시작 - 위 코드를 완성 후 삭제 또는 comment 처리하세요.<br/> ```searchBt.addActionListener((e)->searchHouses());```<br/>	// 참조코드 종료<br/> |
 | HouseServiceImpl 34      | @Override<br/>	public HouseDeal search(int no) {<br/>		<br/>		// complete code #03<br/>		// null 을 return 하면 안됩니다. Dao Layer 의 적절한 method를 호출하여 Business Logic 을 완성하세요.<br/>|
 | HouseDaoImpl  80         | 못함                                                         |
-| APTRentSAXHandler 28~    | 못함                                                         |
+| APTRentSAXHandler 28~    | else if(qName.equals("보증금액")) { 
+			// complete code #05
+			// 보증금액 항목을 처리하세요.
+			```house.setDealAmount(temp.trim());
+		}else if(qName.equals("월세금액")) { 
+			house.setRentMoney(temp);```
+	```	}else if(qName.equals("건축년도")) { ```
+			// complete code #06
+			// 건축년도 항목을 처리하세요.
+		```	house.setBuildYear(Integer.parseInt(temp));```
+	
+		```	house.setDealMonth(Integer.parseInt(temp));
+		}else if(qName.equals("일")) { 
+			// complete code #07;
+			// 일 항목을 처리하세요.
+			house.setDealDay(Integer.parseInt(temp));```
+	 
+                                                                    |
 
